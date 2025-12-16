@@ -1,0 +1,41 @@
+[project]
+name = "finguard-fraud-api"
+version = "0.1.0"
+description = "A production-ready API for real-time financial fraud detection."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn>=1.3.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "jupyter>=1.0.0",
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "pre-commit>=3.0.0",
+    "mypy>=1.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# Tell setuptools to only find packages in the src directory
+[tool.setuptools]
+packages.find = {where = ["src"]}
+
+[tool.ruff]
+select = ["E", "F", "I"]
+ignore = ["E501"]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']

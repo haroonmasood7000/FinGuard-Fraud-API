@@ -1,3 +1,43 @@
+# Project specific
+data/raw/
+data/processed/
+models/
+notebooks/*.ipynb
+
+# Data files
+data/*.csv
+!data/README.md
+
+
+
+
+
+# Jupyter/Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+.env.local
+
+# Data files (optional - only if not tracking data)
+*.csv
+*.pkl
+*.joblib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
