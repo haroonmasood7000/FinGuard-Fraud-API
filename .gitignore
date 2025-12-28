@@ -2,7 +2,7 @@
 data/raw/
 data/processed/
 models/
-notebooks/*.ipynb
+# notebooks/*.ipynb
 
 # Data files
 data/*.csv
