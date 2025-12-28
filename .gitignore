@@ -13,8 +13,8 @@ data/*.csv
 
 
 # Jupyter/Notebooks
-.ipynb_checkpoints/
-*.ipynb
+# .ipynb_checkpoints/
+# *.ipynb
 
 # Environment
 .env
