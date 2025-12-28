@@ -111,9 +111,8 @@ The focus shifts from analysis to engineering. Key tasks will include:
 This is a portfolio project part of a structured AI Engineering roadmap. Feedback and suggestions are welcome—please open an issue or discussion in the repo.
 
 ## 📄 License
-This project is licensed under the MIT License - see the LICENSE file for details (to be created).
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 *Built as part of a project-based roadmap to transition into an AI/ML Engineering role.*
-```
 
